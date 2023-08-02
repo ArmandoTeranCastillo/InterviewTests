@@ -66,4 +66,18 @@ public abstract class FirstTest
         }
         return count;
     }
+
+    public static string RemoveDuplicates(string s)
+    {
+        var array = s.ToCharArray();
+        var newlist = new List<char>();
+        foreach (var character in array)
+        {
+            if (!newlist.Contains(character))
+            {
+                newlist.Add(character);
+            }
+        }
+        return string.Join(" ", newlist);
+    }
 }
