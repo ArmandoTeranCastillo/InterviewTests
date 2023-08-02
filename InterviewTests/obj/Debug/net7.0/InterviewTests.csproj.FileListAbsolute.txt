@@ -1,0 +1,15 @@
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\bin\Debug\net7.0\InterviewTests.exe
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\bin\Debug\net7.0\InterviewTests.deps.json
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\bin\Debug\net7.0\InterviewTests.runtimeconfig.json
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\bin\Debug\net7.0\InterviewTests.dll
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\bin\Debug\net7.0\InterviewTests.pdb
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\obj\Debug\net7.0\InterviewTests.csproj.AssemblyReference.cache
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\obj\Debug\net7.0\InterviewTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\obj\Debug\net7.0\InterviewTests.AssemblyInfoInputs.cache
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\obj\Debug\net7.0\InterviewTests.AssemblyInfo.cs
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\obj\Debug\net7.0\InterviewTests.csproj.CoreCompileInputs.cache
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\obj\Debug\net7.0\InterviewTests.dll
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\obj\Debug\net7.0\refint\InterviewTests.dll
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\obj\Debug\net7.0\InterviewTests.pdb
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\obj\Debug\net7.0\InterviewTests.genruntimeconfig.cache
+C:\Users\Armando.teran\RiderProjects\InterviewTests\InterviewTests\obj\Debug\net7.0\ref\InterviewTests.dll
