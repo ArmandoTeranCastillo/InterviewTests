@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Armando.teran\\RiderProjects\\InterviewTests\\InterviewTests\\InterviewTests.csproj",
+      "projectUniqueName": "C:\\Users\\Armando.teran\\Desktop\\InterviewTest\\InterviewTests\\InterviewTests\\InterviewTests.csproj",
       "projectName": "InterviewTests",
-      "projectPath": "C:\\Users\\Armando.teran\\RiderProjects\\InterviewTests\\InterviewTests\\InterviewTests.csproj",
+      "projectPath": "C:\\Users\\Armando.teran\\Desktop\\InterviewTest\\InterviewTests\\InterviewTests\\InterviewTests.csproj",
       "packagesPath": "C:\\Users\\Armando.teran\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Armando.teran\\RiderProjects\\InterviewTests\\InterviewTests\\obj\\",
+      "outputPath": "C:\\Users\\Armando.teran\\Desktop\\InterviewTest\\InterviewTests\\InterviewTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Armando.teran\\AppData\\Roaming\\NuGet\\NuGet.Config",

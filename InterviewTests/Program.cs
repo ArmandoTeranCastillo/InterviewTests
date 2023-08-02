@@ -10,7 +10,13 @@ public abstract partial class InterviewTests
 {
     public static void Main()
     {
-        Console.WriteLine(FirstTest.ReverseEachString("Hola a mis amigos"));
+        const string input = "Hello Worldddddddddddddddd";
+        var counts = FirstTest.CountEachCharacter(input);
+
+        foreach (var pair in counts)
+        {
+            Console.WriteLine($"Character: {pair.Key}, Count: {pair.Value}");
+        }
     }
     //Reverse String
    

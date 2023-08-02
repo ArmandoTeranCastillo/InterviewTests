@@ -46,4 +46,24 @@ public abstract class FirstTest
         }
         return string.Concat(newArray);
     }
+
+    public static Dictionary<char, int>CountEachCharacter(string s)
+    {
+        var count = new Dictionary<char, int>();
+        var array = s.ToCharArray();
+        foreach (var element in array)
+        {
+            if (element == ' ') continue;
+            if (!count.ContainsKey(element))
+            {
+                count.Add(element, 1);
+            }
+            else
+            {
+                count[element]++;
+            }
+
+        }
+        return count;
+    }
 }
