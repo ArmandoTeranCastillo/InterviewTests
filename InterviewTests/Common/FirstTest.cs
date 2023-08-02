@@ -94,12 +94,10 @@ public abstract class FirstTest
                 allSubstrings.Append(substring + ", ");
             }
         }
-        // Remove the last comma and space
         if (allSubstrings.Length > 0)
         {
             allSubstrings.Remove(allSubstrings.Length - 2, 2);
         }
-
         return allSubstrings.ToString();
     }
 
@@ -110,8 +108,38 @@ public abstract class FirstTest
         {
             (array[i + 1], array[i]) = (array[i], array[i + 1]);
         }
-
         return string.Concat(array);
     }
 
+    public static string RotateRight(string s)
+    {
+        var array = s.ToCharArray();
+        for (var i = s.Length - 1; i > 0; i--)
+        {
+            (array[i - 1], array[i]) = (array[i], array[i - 1]);
+        }
+        return string.Concat(array);
+    }
+
+    public static string IsPrime(double n)
+    {
+        if (n < 2) return "No es primo";
+        
+        for (var i = 2; i <= Math.Sqrt(n); i++)
+        {
+            if (n % i == 0)
+            {
+                return "No es primo";
+            }
+        }
+        return "Es primo";
+    }
+
+    public static string SumAllDigits(string s)
+    {
+        var charArray = s.ToCharArray();
+        var array = Array.ConvertAll(charArray, c => (int)char.GetNumericValue(c));
+        var sum = array.Sum();
+        return sum.ToString();
+    }
 }

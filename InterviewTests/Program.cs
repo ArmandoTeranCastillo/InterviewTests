@@ -6,12 +6,10 @@ using InterviewTests.Common;
 
 namespace InterviewTests;
 
-public abstract partial class InterviewTests
+public abstract class InterviewTests
 {
     public static void Main()
     {
-        Console.WriteLine(FirstTest.RotateLeft("Paleolitico"));
+        Console.WriteLine(FirstTest.SumAllDigits("1234567810"));
     }
-    //Reverse String
-   
 }
