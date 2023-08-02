@@ -1,4 +1,5 @@
-﻿using System.Text.RegularExpressions;
+﻿using System.Text;
+using System.Text.RegularExpressions;
 
 namespace InterviewTests.Common;
 
@@ -80,4 +81,37 @@ public abstract class FirstTest
         }
         return string.Join(" ", newlist);
     }
+
+    public static string GetAllSubStrings(string s)
+    {
+        var allSubstrings = new StringBuilder();
+        for (var i = 0; i < s.Length; i++)
+        {
+            var substring = new StringBuilder(s.Length - i);
+            for (var j = i; j < s.Length; j++)
+            {
+                substring.Append(s[j]);
+                allSubstrings.Append(substring + ", ");
+            }
+        }
+        // Remove the last comma and space
+        if (allSubstrings.Length > 0)
+        {
+            allSubstrings.Remove(allSubstrings.Length - 2, 2);
+        }
+
+        return allSubstrings.ToString();
+    }
+
+    public static string RotateLeft(string s)
+    {
+        var array = s.ToCharArray();
+        for (var i = 0; i < s.Length - 1; i++)
+        {
+            (array[i + 1], array[i]) = (array[i], array[i + 1]);
+        }
+
+        return string.Concat(array);
+    }
+
 }

@@ -10,7 +10,7 @@ public abstract partial class InterviewTests
 {
     public static void Main()
     {
-        Console.WriteLine(FirstTest.RemoveDuplicates("Fiesta de la quebrada"));
+        Console.WriteLine(FirstTest.RotateLeft("Paleolitico"));
     }
     //Reverse String
    
