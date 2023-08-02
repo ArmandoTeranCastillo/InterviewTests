@@ -10,6 +10,10 @@ public abstract class InterviewTests
 {
     public static void Main()
     {
-        Console.WriteLine(FirstTest.SumAllDigits("1234567810"));
+        var array = FirstTest.OrderString("Adcefyeclcus434");
+        foreach (var element in array)
+        {
+            Console.WriteLine("{0}", element);
+        }
     }
 }

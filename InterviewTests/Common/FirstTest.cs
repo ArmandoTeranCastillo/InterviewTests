@@ -142,4 +142,32 @@ public abstract class FirstTest
         var sum = array.Sum();
         return sum.ToString();
     }
+
+    public static int FindSecondMaxValue(string s)
+    {
+        var max = 0;
+        var secondMax = 0;
+        var charArray = s.ToCharArray();
+        var array = Array.ConvertAll(charArray, c => (int)char.GetNumericValue(c));
+        foreach (var number in array)
+        {
+            if (number > max)
+            {
+                secondMax = max;
+                max = number;
+            }
+            else if(number > secondMax & number != max)
+            {
+                secondMax = number;
+            }
+        }
+        return secondMax;
+    }
+
+    public static Array OrderString(string s)
+    {
+        var array = s.ToCharArray();
+        Array.Sort(array);
+        return array;
+    }
 }
