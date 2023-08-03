@@ -10,10 +10,6 @@ public abstract class InterviewTests
 {
     public static void Main()
     {
-        var array = FirstTest.OrderString("Adcefyeclcus434");
-        foreach (var element in array)
-        {
-            Console.WriteLine("{0}", element);
-        }
+        Console.WriteLine(BasicAlgorithms.LargestRangeNumber(24, 26));
     }
 }

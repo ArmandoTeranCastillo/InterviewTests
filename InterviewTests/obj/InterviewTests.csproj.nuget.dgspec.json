@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Armando.teran\\Desktop\\InterviewTest\\InterviewTests\\InterviewTests\\InterviewTests.csproj": {}
+    "C:\\Users\\Lenovo\\Desktop\\Portafolio\\InterviewTest\\InterviewTests\\InterviewTests\\InterviewTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Armando.teran\\Desktop\\InterviewTest\\InterviewTests\\InterviewTests\\InterviewTests.csproj": {
+    "C:\\Users\\Lenovo\\Desktop\\Portafolio\\InterviewTest\\InterviewTests\\InterviewTests\\InterviewTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Armando.teran\\Desktop\\InterviewTest\\InterviewTests\\InterviewTests\\InterviewTests.csproj",
+        "projectUniqueName": "C:\\Users\\Lenovo\\Desktop\\Portafolio\\InterviewTest\\InterviewTests\\InterviewTests\\InterviewTests.csproj",
         "projectName": "InterviewTests",
-        "projectPath": "C:\\Users\\Armando.teran\\Desktop\\InterviewTest\\InterviewTests\\InterviewTests\\InterviewTests.csproj",
-        "packagesPath": "C:\\Users\\Armando.teran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Armando.teran\\Desktop\\InterviewTest\\InterviewTests\\InterviewTests\\obj\\",
+        "projectPath": "C:\\Users\\Lenovo\\Desktop\\Portafolio\\InterviewTest\\InterviewTests\\InterviewTests\\InterviewTests.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lenovo\\Desktop\\Portafolio\\InterviewTest\\InterviewTests\\InterviewTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Armando.teran\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
